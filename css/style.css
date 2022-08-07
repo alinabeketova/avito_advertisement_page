@@ -317,50 +317,36 @@ h2 {
     color:#83CE8F;
 }
 .heart {
-    background: url(./img//premium-icon-heart-2589197\ 1\ \(3\).svg);
     margin: 6px 9px 5px 8px;
     width: 36px;
     height: 36px;
 }
-.heart:hover {
-    background: url(./img/active-heart.svg);
-}
 .mark {
-    background: url(./img/bookmark.svg);
     margin: 7px 9px 6px 10px;
     width: 31px;
     height: 31px;
 }
-.mark:hover {
-    background: url(./img/active-bookmark.svg);
-    width: 28px;
-}
 .share {
-    background: url(./img/share.svg);
     width: 31px;
     height: 31px;
     margin: 6px 9px 0 4px;
 }
 .download {
-    background: url(./img/download.svg);
     width: 30px;
     height: 30px;
     margin: 7px 10px;
 }
 .seal {
-    background: url(./img/seal.svg);
     width: 31px;
     height: 31px;
     margin: 7px 9px 6px 10px;
 }
 .hide {
-    background: url(./img/hide.svg);
     width: 34px;
     height: 29px;
     margin: 8px 8px 7px;
 }
 .complain {
-    background: url(./img/complain.svg);
     width: 32px;
     height: 30px;
     margin: 7px 9px;
