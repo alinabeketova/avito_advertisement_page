@@ -323,44 +323,44 @@ h2 {
     height: 36px;
 }
 .heart:hover {
-    background: url(/img/активноесердце.svg);
+    background: url(/img/active-heart.svg);
 }
 .mark {
-    background: url(/img/закладка.svg);
+    background: url(/img/bookmark.svg);
     margin: 7px 9px 6px 10px;
     width: 31px;
     height: 31px;
 }
 .mark:hover {
-    background: url(/img/активнаязакладка.svg);
+    background: url(/img/active-bookmark.svg);
     width: 28px;
 }
 .share {
-    background: url(/img/поделиться.svg);
+    background: url(/img/share.svg);
     width: 31px;
     height: 31px;
     margin: 6px 9px 0 4px;
 }
 .download {
-    background: url(/img/скачать.svg);
+    background: url(/img/download.svg);
     width: 30px;
     height: 30px;
     margin: 7px 10px;
 }
 .seal {
-    background: url(/img/печать.svg);
+    background: url(/img/seal.svg);
     width: 31px;
     height: 31px;
     margin: 7px 9px 6px 10px;
 }
 .hide {
-    background: url(/img/скрыть.svg);
+    background: url(/img/hide.svg);
     width: 34px;
     height: 29px;
     margin: 8px 8px 7px;
 }
 .complain {
-    background: url(/img/пожаловаться.svg);
+    background: url(/img/complain.svg);
     width: 32px;
     height: 30px;
     margin: 7px 9px;
