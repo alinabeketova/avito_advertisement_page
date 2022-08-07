@@ -370,9 +370,7 @@ h2 {
     display: flex;
 }
 .catalog-img {
-    width: 706px;
-    height: 491px;
-    margin: 0 0 138px -60px;
+    margin: 41px 105px 0 0;
 }
 .contacts:not(:last-child) {
     margin: 49px 0 42px 0;
@@ -476,6 +474,9 @@ h2 {
 }
 
 @media (max-width: 1226px) {
+    .catalog-img {
+        margin: 41px 95px 0 0;
+    }
     .contacts-salesman {
         margin: 10px 10px 6px 26px;
     }
@@ -490,6 +491,9 @@ h2 {
 }
 
 @media (max-width: 1193px){
+    .catalog-img {
+        margin: 41px 90px 0 0;
+    }
     .contacts-salesman {
         margin: 5px 5px 6px 21px;
     }
@@ -514,6 +518,9 @@ h2 {
     }
 }
 @media (max-width: 1104px)  {
+    .catalog-img {
+        margin: 41px 80px 0 0;
+    }
     .catalog-contacts_contacts-salesman {
         background: #fff;
         border: none;
