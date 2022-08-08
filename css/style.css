@@ -42,6 +42,15 @@ html, body {
     background: #FAFAFA;
 }
 
+.img {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .visible {
+    display: inline-block;
+  }
+
 .wrapper {
     min-height: 100%;
     overflow: hidden;
@@ -293,13 +302,13 @@ h2 {
 .reviews-grade {
     cursor: pointer;
     margin: 0 8px 0 0;
-    background: #83CE8F;
+    background: #9BB7E2;
     border-radius: 10px;
 }
 .reviews-grade-number {
     padding: 3px 10px 4px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 15px;
     line-height: 18px;
     letter-spacing: 0.16em;
@@ -312,9 +321,9 @@ h2 {
 .reviews-comments-text {
     font-style: normal;
     font-weight: 700;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 18px;
-    color:#83CE8F;
+    color: #9BB7E2;
 }
 .heart {
     margin: 6px 9px 5px 8px;
