@@ -5,6 +5,7 @@
   <title>Авито</title>
   <link rel="icon" href="./img/logoAvito.svg">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 </head>
 <body>
     <div class="wrapper">
@@ -44,7 +45,7 @@
                             <div class="reviews-comments"><a class="reviews-comments-text" href="">3 отзыва</a></div>
                         </div>
                         <nav>
-                            <ul class="menu_list">
+                            <ul class="menu_list menu_list-menu_bookmarks">
                                 <li>
                                     <div class="menu_bookmarks">
                                         <div class="menu_bookmarks-img heart">
@@ -99,9 +100,30 @@
                             </ul>
                         </nav>
                         <div class="main-blok_body-catalog">
-                            <div class="catalog-img">
-                                <img src="./img/apartment photo/foto (1).jpg" alt="">
+
+                            <div class="catalog_image-slider swiper_conteiner">
+                                <div class="catalog_image-slider__wrapper swiper-wrapper">
+                                    <div class="catalog_image-slider__slide swiper-slide">
+                                        <div class="catalog_image-slider__image">
+                                            <img src="./img/apartment photo/Frame 20.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="catalog_image-slider__slide swiper-slide">
+                                        <div class="catalog_image-slider__image">
+                                            <img src="./img/apartment photo/Frame 21.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="catalog_image-slider__slide swiper-slide">
+                                        <div class="catalog_image-slider__image">
+                                            <img src="./img/apartment photo/Frame 22.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <div style="width: 20%;" class="swiper-pagination"></div>
                             </div>
+
                             <div class="catalog-contacts">
                                 <div class="contacts-phone contacts">
                                     <div class="phone-text">позвонить</div>
@@ -439,9 +461,10 @@
          </main>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+
 
     <script>
-
         const imgChecked1 = document.querySelector('.checked1');
         const imgNotChecked1 = document.querySelector('.not-checked1');
         const showCheckbox1 = () => {
@@ -459,8 +482,9 @@
         }
         imgChecked2.addEventListener('click', showCheckbox2);
         imgNotChecked2.addEventListener('click', showCheckbox2)
-
     </script>
+
+    <script src="js/script.js"></script>
 
 </body>
 </html>
