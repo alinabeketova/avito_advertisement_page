@@ -63,39 +63,39 @@
                                     </div>
                                 </li>
                                 <li>
-                                    <button class="menu_bookmarks">
+                                    <a href="#popup-share" class="menu_bookmarks">
                                         <div class="menu_bookmarks-img share">
                                             <img src="./img/share.svg" alt="">
                                         </div>
-                                    </button>
+                                    </a>
                                 </li>
                                 <li>
-                                    <button class="menu_bookmarks">
+                                    <a href=""  download="https://alinabeketova.github.io/avito_advertisement_page/" class="menu_bookmarks">
                                         <div class="menu_bookmarks-img download">
                                             <img src="./img/download.svg" alt="">
                                         </div>
-                                    </button>
+                                    </a>
                                 </li>
                                 <li>
-                                    <button class="menu_bookmarks">
+                                    <a  href="javascript:(print());" class="menu_bookmarks">
                                         <div class="menu_bookmarks-img seal">
                                             <img src="./img/seal.svg" alt="">
                                         </div>
-                                    </button>
+                                    </a>
                                 </li>
                                 <li>
-                                    <button class="menu_bookmarks">
+                                    <a href="#popup-hide" class="menu_bookmarks">
                                         <div class="menu_bookmarks-img hide">
                                             <img src="./img/hide.svg" alt="">
                                         </div>
-                                    </button>
+                                    </a>
                                 </li>
                                 <li>
-                                    <button class="menu_bookmarks">
+                                    <a href="#popup-complain" class="menu_bookmarks">
                                         <div class="menu_bookmarks-img complain">
                                             <img src="./img/complain.svg" alt="">
                                         </div>
-                                    </button>
+                                    </a>
                                 </li>
                             </ul>
                         </nav>
@@ -459,6 +459,80 @@
             </footer>
             
          </main>
+    </div>
+
+    <div id="popup-share" class="popup-share">
+        <div class="popup-share__body">
+            <div class="popup-share__content">
+                <a href="#" class="popup-share__close">X</a>
+                <div class="popup-share_text">
+                    <div class="popup-share-buttons">
+                        <button
+                            class="facebook"
+                            onClick='window.open("https://www.facebook.com/sharer.php?u=АДРЕС_СТРАНИЦЫ","sharer","status=0,toolbar=0,width=650,height=500");'
+                            title="Поделиться в Facebook">
+                            <img src="./img/social networks/free-icon-facebook-174848 1.svg" alt="">
+                        </button>
+                        <button
+                            class="vkontakte"
+                            onClick='window.open("https://vk.com/share.php?url=АДРЕС_СТРАНИЦЫ","sharer","status=0,toolbar=0,width=650,height=500");'
+                            title="Поделиться Вконтакте">
+                            <img src="./img/social networks/vkontakte 1.svg" alt="">
+                        </button>
+                        <button
+                            class="ok"
+                            onClick='window.open("https://www.odnoklassniki.ru/dk?st.cmd=addShare&st.s=1&st._surl=АДРЕС_СТРАНИЦЫ&st.comments=ОПИСАНИЕ","sharer","status=0,toolbar=0,width=650,height=500");'
+                            title="Поделиться в Одноклассниках">
+                            <img src="./img/social networks/odnoklassniki 1.svg" alt="">
+                        </button>
+                        <button
+                            class="telegram"
+                            onClick='window.open("https://telegram.me/share/url?url=АДРЕС_СТРАНИЦЫ","sharer","status=0,toolbar=0,width=650,height=500");'
+                            title="Поделиться в Телеграм">
+                            <img src="./img/social networks/telegram 1.svg" alt="">
+                        </button>
+                        <button
+                            class="pinterest"
+                            onClick='window.open("https://ru.pinterest.com/pin/create/button/?url=АДРЕС_СТРАНИЦЫ","sharer","status=0,toolbar=0,width=650,height=500");'
+                            data-media="АДРЕС_ИЗОБРАЖЕНИЯ"
+                            title="Запинить">
+                            <img src="./img/social networks/pinterest 1.svg" alt="">
+                        </button>
+                        <button
+                            class="twitter"
+                            onClick='window.open("https://twitter.com/intent/tweet?text=ТАЙТЛ_СТРАНИЦЫ. ОПИСАНИЕ. СССЫЛКА","sharer","status=0,toolbar=0,width=650,height=500");'
+                            title="Твитнуть">
+                            <img src="./img/social networks/twitter 1.svg" alt="">
+                        </button>
+                        <button
+                            class="mail"
+                            onClick='window.open("https://connect.mail.ru/share?url=АДРЕС_СТРАНИЦЫ","sharer","status=0,toolbar=0,width=650,height=500");'
+                            title="Поделиться в @Мой мир">
+                            <img src="./img/social networks/gmail 1.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="popup-hide" class="popup-hide">
+        <a href="#" class="popup-hide__close">отмена</a>
+    </div>
+
+    <div id="popup-complain" class="popup-complain">
+        <div class="popup-complain__body">
+            <div class="popup-complain__content">
+                <a href="#" class="popup-complain__close">X</a>
+                <form name="test" method="post" action="input1.php">
+                    <p>
+                        <div class="popup-complain__text">Жалоба</div><Br>
+                        <textarea style="margin: 0 0 5px 0;" name="comment" cols="40" rows="3"></textarea>
+                    </p>
+                    <p><input type="submit" value="Отправить"></p>
+                   </form>
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>

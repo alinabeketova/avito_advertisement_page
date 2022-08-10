@@ -949,3 +949,155 @@ h2 {
     color: #968681;
     text-decoration: underline;
 }
+
+/* всплывающие окна ............................................................................................................... */
+.popup-share {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000086;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.popup-share:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup-share__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup-share__content {
+    background-color: #ffff;
+    color: #000000;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+}
+.popup-share__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+.popup-share-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.facebook {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.vkontakte {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.ok {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.telegram {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.pinterest {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.twitter {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+.mail {
+    margin-bottom: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.popup-hide {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #3131318e;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-hide:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup-hide__close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+.popup-complain {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #00000086;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.popup-complain:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup-complain__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup-complain__content {
+    background-color: #ffff;
+    color: #000000;
+    max-width: 800px;
+    padding: 30px;
+    position: relative;
+}
+.popup-complain__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.popup-complain__text {
+    font-size: 15px;
+    margin: 0 0 5px 0;
+}
